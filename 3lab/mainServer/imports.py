@@ -1,7 +1,4 @@
-from textHandlers.parseTree import *
-from textHandlers.sentenceParser import *
-from textHandlers.textParser import *
-from app import app
-from controllers.treeController import *
-from textHandlers.handleJSON import *
-import nltk
+from textHandlers.textParser import TextParser
+from textHandlers.handleJSON import HandleJSON
+from textHandlers.sentenceParser import SentenceParser, parseAllSentences
+from xml.etree.ElementTree import Element

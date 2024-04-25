@@ -1,1 +1,656 @@
-[]
+[
+    {
+        "id": 1,
+        "sentence": "Sasha likes watching movies",
+        "parseTree": [
+            {
+                "treeId": 0,
+                "tree": [
+                    {
+                        "wordId": 0,
+                        "word": "Sasha",
+                        "info": {
+                            "synonyms": [],
+                            "antonyms": [],
+                            "homonyms": [],
+                            "hyponyms": [],
+                            "hypernyms": []
+                        },
+                        "role": "NNP"
+                    }
+                ]
+            },
+            {
+                "wordId": 2,
+                "word": "likes",
+                "info": {
+                    "synonyms": [
+                        "like",
+                        "wish",
+                        "ilk",
+                        "care",
+                        "the_like",
+                        "the_likes_of"
+                    ],
+                    "antonyms": [
+                        "dislike"
+                    ],
+                    "homonyms": [
+                        "like",
+                        "wish",
+                        "ilk",
+                        "care",
+                        "the_like",
+                        "the_likes_of"
+                    ],
+                    "hyponyms": [
+                        "please",
+                        "prefer",
+                        "care_for",
+                        "enjoy",
+                        "love",
+                        "cotton"
+                    ],
+                    "hypernyms": [
+                        "desire",
+                        "want",
+                        "view",
+                        "consider",
+                        "kind",
+                        "sort",
+                        "regard",
+                        "variety",
+                        "see",
+                        "form",
+                        "reckon"
+                    ]
+                },
+                "role": "VBZ"
+            },
+            {
+                "wordId": 3,
+                "word": "watching",
+                "info": {
+                    "synonyms": [
+                        "observation",
+                        "look_on",
+                        "find_out",
+                        "look_out",
+                        "take_in",
+                        "keep_an_eye_on",
+                        "follow",
+                        "learn",
+                        "watching",
+                        "observe",
+                        "watch",
+                        "catch",
+                        "observance",
+                        "view",
+                        "determine",
+                        "ascertain",
+                        "watch_out",
+                        "watch_over",
+                        "see",
+                        "check"
+                    ],
+                    "antonyms": [],
+                    "homonyms": [
+                        "observation",
+                        "look_on",
+                        "find_out",
+                        "look_out",
+                        "take_in",
+                        "keep_an_eye_on",
+                        "follow",
+                        "learn",
+                        "watching",
+                        "observe",
+                        "watch",
+                        "catch",
+                        "observance",
+                        "view",
+                        "determine",
+                        "ascertain",
+                        "watch_out",
+                        "watch_over",
+                        "see",
+                        "check"
+                    ],
+                    "hyponyms": [
+                        "proctor",
+                        "guard",
+                        "monitoring",
+                        "spectate",
+                        "take_in",
+                        "mind",
+                        "watch",
+                        "observe",
+                        "sit_back",
+                        "catch",
+                        "view",
+                        "stargazing",
+                        "preview",
+                        "witness",
+                        "sit_by",
+                        "beware",
+                        "sighting",
+                        "keep_one's_eyes_open",
+                        "visualise",
+                        "visualize",
+                        "keep_one's_eyes_peeled",
+                        "keep_tabs_on",
+                        "test",
+                        "rubberneck",
+                        "see",
+                        "invigilate",
+                        "keep_one's_eyes_skinned",
+                        "look_after"
+                    ],
+                    "hypernyms": [
+                        "go_over",
+                        "looking",
+                        "check_up_on",
+                        "look",
+                        "look_into",
+                        "check_over",
+                        "check_out",
+                        "suss_out",
+                        "check",
+                        "watch",
+                        "looking_at",
+                        "check_into"
+                    ]
+                },
+                "role": "VBG"
+            },
+            {
+                "wordId": 4,
+                "word": "movies",
+                "info": {
+                    "synonyms": [
+                        "motion-picture_show",
+                        "picture",
+                        "motion_picture",
+                        "film",
+                        "moving-picture_show",
+                        "pic",
+                        "movie",
+                        "flick",
+                        "picture_show",
+                        "moving_picture"
+                    ],
+                    "antonyms": [],
+                    "homonyms": [
+                        "motion-picture_show",
+                        "picture",
+                        "motion_picture",
+                        "film",
+                        "moving-picture_show",
+                        "pic",
+                        "movie",
+                        "flick",
+                        "picture_show",
+                        "moving_picture"
+                    ],
+                    "hyponyms": [
+                        "3-D",
+                        "coming_attraction",
+                        "silents",
+                        "cinema_verite",
+                        "collage_film",
+                        "film_noir",
+                        "musical_theater",
+                        "talking_picture",
+                        "skin_flick",
+                        "telefilm",
+                        "feature",
+                        "final_cut",
+                        "home_movie",
+                        "rough_cut",
+                        "short_subject",
+                        "musical",
+                        "feature_film",
+                        "documentary_film",
+                        "documentary",
+                        "three-D",
+                        "musical_comedy",
+                        "docudrama",
+                        "3D",
+                        "shoot-'em-up",
+                        "infotainment",
+                        "silent_movie",
+                        "slow_motion",
+                        "talkie",
+                        "silent_picture"
+                    ],
+                    "hypernyms": [
+                        "production",
+                        "show",
+                        "product"
+                    ]
+                },
+                "role": "NNS"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "sentence": " Rayan Gosling his favorite actor",
+        "parseTree": [
+            {
+                "wordId": 0,
+                "word": "Rayan",
+                "info": {
+                    "synonyms": [],
+                    "antonyms": [],
+                    "homonyms": [],
+                    "hyponyms": [],
+                    "hypernyms": []
+                },
+                "role": "JJ"
+            },
+            {
+                "wordId": 1,
+                "word": "Gosling",
+                "info": {
+                    "synonyms": [
+                        "gosling"
+                    ],
+                    "antonyms": [],
+                    "homonyms": [
+                        "gosling"
+                    ],
+                    "hyponyms": [],
+                    "hypernyms": [
+                        "goose"
+                    ]
+                },
+                "role": "VBG"
+            },
+            {
+                "wordId": 2,
+                "word": "his",
+                "info": {
+                    "synonyms": [],
+                    "antonyms": [],
+                    "homonyms": [],
+                    "hyponyms": [],
+                    "hypernyms": []
+                },
+                "role": "PRP$"
+            },
+            {
+                "wordId": 3,
+                "word": "favorite",
+                "info": {
+                    "synonyms": [
+                        "pet",
+                        "deary",
+                        "favored",
+                        "favorite",
+                        "ducky",
+                        "best-loved",
+                        "preferred",
+                        "darling",
+                        "front-runner",
+                        "dearie",
+                        "preferent",
+                        "favourite"
+                    ],
+                    "antonyms": [],
+                    "homonyms": [
+                        "pet",
+                        "deary",
+                        "favored",
+                        "favorite",
+                        "ducky",
+                        "best-loved",
+                        "preferred",
+                        "darling",
+                        "front-runner",
+                        "dearie",
+                        "preferent",
+                        "favourite"
+                    ],
+                    "hyponyms": [
+                        "chosen",
+                        "macushla",
+                        "mollycoddle",
+                        "teacher's_pet"
+                    ],
+                    "hypernyms": [
+                        "contender",
+                        "lover",
+                        "competitor",
+                        "choice",
+                        "competition",
+                        "selection",
+                        "rival",
+                        "pick",
+                        "challenger"
+                    ]
+                },
+                "role": "JJ"
+            },
+            {
+                "wordId": 4,
+                "word": "actor",
+                "info": {
+                    "synonyms": [
+                        "actor",
+                        "histrion",
+                        "doer",
+                        "worker",
+                        "role_player",
+                        "thespian",
+                        "player"
+                    ],
+                    "antonyms": [],
+                    "homonyms": [
+                        "actor",
+                        "histrion",
+                        "doer",
+                        "worker",
+                        "role_player",
+                        "thespian",
+                        "player"
+                    ],
+                    "hyponyms": [
+                        "lead",
+                        "go-getter",
+                        "spear_carrier",
+                        "actress",
+                        "play-actor",
+                        "principal",
+                        "walk-on",
+                        "mime",
+                        "busy_bee",
+                        "understudy",
+                        "heavy",
+                        "mimer",
+                        "trouper",
+                        "sharpy",
+                        "fireball",
+                        "standby",
+                        "star",
+                        "tragedian",
+                        "human_dynamo",
+                        "movie_actor",
+                        "live_wire",
+                        "screen_actor",
+                        "ball_of_fire",
+                        "powerhouse",
+                        "whizz-kid",
+                        "whiz-kid",
+                        "character_actor",
+                        "pantomimist",
+                        "scene-stealer",
+                        "vitaliser",
+                        "energiser",
+                        "barnstormer",
+                        "demon",
+                        "plant",
+                        "vitalizer",
+                        "man_of_action",
+                        "eager_beaver",
+                        "upstager",
+                        "animator",
+                        "energizer",
+                        "man_of_deeds",
+                        "ham",
+                        "leading_man",
+                        "ingenue",
+                        "pantomimer",
+                        "supernumerary",
+                        "ham_actor",
+                        "mummer",
+                        "extra",
+                        "sharpie",
+                        "playactor",
+                        "reenactor",
+                        "comedian"
+                    ],
+                    "hypernyms": [
+                        "mortal",
+                        "performer",
+                        "someone",
+                        "performing_artist",
+                        "somebody",
+                        "soul",
+                        "person",
+                        "individual"
+                    ]
+                },
+                "role": "NN"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "sentence": " I like birds",
+        "parseTree": [
+            {
+                "wordId": 0,
+                "word": "I",
+                "info": {
+                    "synonyms": [
+                        "single",
+                        "ace",
+                        "unity",
+                        "iodin",
+                        "ane",
+                        "iodine",
+                        "i",
+                        "atomic_number_53",
+                        "one",
+                        "1",
+                        "I"
+                    ],
+                    "antonyms": [],
+                    "homonyms": [
+                        "single",
+                        "ace",
+                        "unity",
+                        "iodin",
+                        "ane",
+                        "iodine",
+                        "i",
+                        "atomic_number_53",
+                        "one",
+                        "1",
+                        "I"
+                    ],
+                    "hyponyms": [
+                        "monad",
+                        "iodine-131",
+                        "singleton",
+                        "iodine-125",
+                        "monas"
+                    ],
+                    "hypernyms": [
+                        "digit",
+                        "letter_of_the_alphabet",
+                        "element",
+                        "halogen",
+                        "letter",
+                        "chemical_element",
+                        "alphabetic_character",
+                        "figure"
+                    ]
+                },
+                "role": "PRP"
+            },
+            {
+                "wordId": 1,
+                "word": "like",
+                "info": {
+                    "synonyms": [
+                        "alike",
+                        "similar",
+                        "like",
+                        "wish",
+                        "corresponding",
+                        "ilk",
+                        "care",
+                        "same",
+                        "comparable",
+                        "the_like",
+                        "the_likes_of"
+                    ],
+                    "antonyms": [
+                        "dislike",
+                        "unalike",
+                        "unlike"
+                    ],
+                    "homonyms": [
+                        "alike",
+                        "similar",
+                        "like",
+                        "wish",
+                        "corresponding",
+                        "ilk",
+                        "care",
+                        "same",
+                        "comparable",
+                        "the_like",
+                        "the_likes_of"
+                    ],
+                    "hyponyms": [
+                        "please",
+                        "prefer",
+                        "care_for",
+                        "enjoy",
+                        "love",
+                        "cotton"
+                    ],
+                    "hypernyms": [
+                        "desire",
+                        "want",
+                        "view",
+                        "consider",
+                        "kind",
+                        "sort",
+                        "regard",
+                        "variety",
+                        "see",
+                        "form",
+                        "reckon"
+                    ]
+                },
+                "role": "VBP"
+            },
+            {
+                "wordId": 2,
+                "word": "birds",
+                "info": {
+                    "synonyms": [
+                        "razzing",
+                        "wench",
+                        "boo",
+                        "bird",
+                        "chick",
+                        "birdwatch",
+                        "doll",
+                        "shuttle",
+                        "birdie",
+                        "hoot",
+                        "snort",
+                        "hiss",
+                        "skirt",
+                        "raspberry",
+                        "shuttlecock",
+                        "dame",
+                        "razz",
+                        "Bronx_cheer",
+                        "fowl"
+                    ],
+                    "antonyms": [],
+                    "homonyms": [
+                        "razzing",
+                        "wench",
+                        "boo",
+                        "bird",
+                        "chick",
+                        "birdwatch",
+                        "doll",
+                        "shuttle",
+                        "birdie",
+                        "hoot",
+                        "snort",
+                        "hiss",
+                        "skirt",
+                        "raspberry",
+                        "shuttlecock",
+                        "dame",
+                        "razz",
+                        "Bronx_cheer",
+                        "fowl"
+                    ],
+                    "hyponyms": [
+                        "raptor",
+                        "flightless_bird",
+                        "cuculiform_bird",
+                        "flying_bird",
+                        "caprimulgiform_bird",
+                        "dickey-bird",
+                        "aquatic_bird",
+                        "passerine",
+                        "bird_of_prey",
+                        "bird_of_passage",
+                        "nonpasserine_bird",
+                        "archaeopteryx",
+                        "protoavis",
+                        "gallinacean",
+                        "trogon",
+                        "Archaeopteryx_lithographica",
+                        "gallinaceous_bird",
+                        "ratite",
+                        "nester",
+                        "archeopteryx",
+                        "twitterer",
+                        "piciform_bird",
+                        "dickeybird",
+                        "poultry",
+                        "night_bird",
+                        "wildfowl",
+                        "ratite_bird",
+                        "carinate_bird",
+                        "passeriform_bird",
+                        "archaeornis",
+                        "dickybird",
+                        "raptorial_bird",
+                        "carinate",
+                        "Ibero-mesornis",
+                        "parrot",
+                        "hen",
+                        "dicky-bird",
+                        "cock",
+                        "coraciiform_bird",
+                        "apodiform_bird",
+                        "Sinornis"
+                    ],
+                    "hypernyms": [
+                        "young_woman",
+                        "cry",
+                        "miss",
+                        "fille",
+                        "call",
+                        "yell",
+                        "badminton_equipment",
+                        "vertebrate",
+                        "girl",
+                        "missy",
+                        "meat",
+                        "young_lady",
+                        "shout",
+                        "outcry",
+                        "craniate",
+                        "vociferation",
+                        "observe"
+                    ]
+                },
+                "role": "NNS"
+            }
+        ]
+    }
+]

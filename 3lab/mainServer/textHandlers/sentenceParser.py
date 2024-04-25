@@ -1,6 +1,5 @@
 import nltk
-nltk.download('maxent_ne_chunker')
-nltk.download('words')
+from mainServer.textHandlers.parseTree import ParseTree
 
 
 class SentenceParser:
@@ -8,13 +7,13 @@ class SentenceParser:
         self.sentences = sentences
 
     def parseSentences(self):
-        new_sentences = []
+        parsed_sentences = []
         for sentence in self.sentences:
             new_sentence = Sentence(sentence)
             self.fillFields(new_sentence, sentence)
-            new_sentences.append(new_sentence)
+            parsed_sentences.append(new_sentence)
 
-        self.sentences = new_sentences
+        self.sentences = parsed_sentences
 
     def fillFields(self, new_sentence, sentence):
         new_sentence.tokens = self.tokenizeWords(sentence)
@@ -44,8 +43,24 @@ class Sentence:
         self.tags = []
         self.entities = []
 
+    def getTokens(self):
+        return self.tokens
+
     def getSentence(self):
         return self.sentence
 
+    def getEntities(self):
+        return self.entities
+
     def print(self):
         print(self.sentence)
+
+
+def parseAllSentences(sentences, lastSentenceId):
+    parsed_sentences = []
+    for sentence in sentences:
+        pT = ParseTree(sentence, lastSentenceId)
+        parsed_sentences.append(pT.getParseTree())
+        lastSentenceId += 1
+    return parsed_sentences
+

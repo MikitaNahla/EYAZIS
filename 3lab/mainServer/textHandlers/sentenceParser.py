@@ -1,4 +1,3 @@
-import re
 import nltk
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
@@ -44,6 +43,9 @@ class Sentence:
         self.tokens = []
         self.tags = []
         self.entities = []
+
+    def getSentence(self):
+        return self.sentence
 
     def print(self):
         print(self.sentence)
